@@ -1,0 +1,95 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经验",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "个人评价"
+  },
+  "avatar": {
+    "src": "https://avatars.githubusercontent.com/u/127610172?u=9c67cd0509ab7d5905f526bbdc441ce96140d9ba&v=4",
+    "hidden": false,
+    "shape": "square"
+  },
+  "profile": {
+    "name": "解正宵",
+    "email": "moonshore001@gmail.com",
+    "mobile": "17816878725",
+    "github": "",
+    "zhihu": "",
+    "workExpYear": "2年以上",
+    "positionTitle": "后端工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": [
+        "2018.09",
+        "2021.06"
+      ],
+      "school": "浙江大学",
+      "major": "电气工程专业 (研究生)",
+      "academic_degree": "",
+      "dataIndex": 0
+    },
+    {
+      "edu_time": [
+        "2014.09",
+        "2018.06"
+      ],
+      "school": "浙江大学",
+      "major": "电气工程专业",
+      "academic_degree": "本科",
+      "dataIndex": 1
+    }
+  ],
+  "awardList": [],
+  "workExpList": [
+    {
+      "company_name": "字节跳动",
+      "department_name": "实时通信",
+      "work_time": [
+        "2021.07",
+        "至今"
+      ],
+      "work_desc": "1. 实时通信指标报警平台后端负责人。负责Go语言后端开发、数据链路延迟监控、实时通信质量周报自动生成等工作，并为报警平台设计了多种报警阈值计算规则和自动归因分析规则。\n2. 实时通信诊断平台的核心开发成员。负责Go语言后端开发、服务稳定性治理、Flink实时任务开发、数据库查询优化等工作。",
+      "dataIndex": 0
+    },
+    {
+      "company_name": "拼多多",
+      "department_name": "用户内容中心",
+      "work_time": [
+        "2020.07",
+        "2020.09"
+      ],
+      "work_desc": "后端Java开发实习生。参与拼多多后端用户评论系统的开发。",
+      "dataIndex": 1
+    }
+  ],
+  "skillList": [],
+  "projectList": [
+    {
+      "project_name": "实时通信指标报警平台",
+      "project_role": "后端负责人",
+      "project_time": "2023.08 - 至今",
+      "project_desc": "报警平台是集报警规则配置、报警消息推送、报警问题追踪、报警归因分析为一体的综合数据平台，为运维团队提供及时感知和定位指标波动问题的能力，确保实时通信系统的稳定运行。",
+      "project_content": "\n1. 设计开发多种指标波动自动归因分析规则，在实践中不断锻炼从数据角度思考问题的能力。这些归因规则可帮助报警处理人快速定位原因，并通过报警问题追踪模块收集准确度反馈，极大提高了指标报警问题处理的自动化程度。\n2. 实现指标报表自动生成功能，该功能可基于报警分析记录和指标波动历史自动生成数据周报，作为重要数据产出提供给tiktok业务方。\n3. 面对上游实时数据链路资源不足的调整，设计开发了端到端数据延迟的测算方法，在兼顾指标报警的实时性和准确性之间取得了平衡，实现项目的快速上线。"
+    },
+    {
+      "project_name": "实时通信诊断平台",
+      "project_role": "后端开发",
+      "project_time": "2021.07 - 2023.07",
+      "project_desc": "诊断平台的定位是帮助技术支持同学一站式解决用户反馈问题，平台以实时通信客户端和服务端每天高达数十TB的海量日志为基础，构建了多维度的异常检测能力，在提供丰富诊断能力的同时保持用户友好性和操作便捷性",
+      "project_content": "\n1. 主导并负责TikTok全链路诊断专项需求，充分发挥快速熟悉业务和抽象建模的能力，成功打通实时通信数据与TikTok直播连麦数据之间的壁垒。首次实现了对TikTok连麦整个链路的诊断能力，为业务稳定性提供了关键支持。\n2. 负责诊断平台稳定性治理专项，深入思考服务的可观测性，并设计了自动巡检模块以主动发现问题。成功识别多起风险事件，包括上游埋点变更和下游异常，保障诊断平台的稳定运行。\n3. 主导数据查询模块重构，在ElasticSearch实时数据基础上接入Hive离线数据以扩展可用时间范围。重新设计多个上游Fink任务，通过Redis保存关键维度信息以提升查询速度。在项目中积累了大数据知识，为系统性能和效率的提升做出贡献。"
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "具有2年以上Go语言后端开发经验，熟悉Go语言的底层设计，在开发中注意保持代码的易读性和可维护性，能很好地践行KISS原则；在以往项目中专注于数据应用开发，能熟练使用关系型和NoSQL数据库，熟悉Mysql, Redis, ElasticSearch数据库的设计原理。\n"
+  },
+  "theme": {
+    "color": "#2f5785",
+    "tagColor": "#8bc34a"
+  }
+}
